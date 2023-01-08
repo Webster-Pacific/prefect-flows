@@ -1,6 +1,7 @@
 from prefect import task, flow, get_run_logger
 import platform
 import sys
+import os
 
 @task
 def log_platform_info():
